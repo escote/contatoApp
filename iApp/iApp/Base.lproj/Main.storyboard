@@ -23,9 +23,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bird-red-2-icon" translatesAutoresizingMaskIntoConstraints="NO" id="wb3-ob-lRh">
-                                <rect key="frame" x="108" y="307" width="198" height="189"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bem vindo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6QA-82-nBw">
                                 <rect key="frame" x="159" y="214" width="96" height="21"/>
                                 <color key="backgroundColor" red="0.28235294117647058" green="0.83529411764705885" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -33,15 +30,33 @@
                                 <color key="textColor" red="0.5607843137254902" green="0.054901960784313725" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bird-red-2-icon" translatesAutoresizingMaskIntoConstraints="NO" id="wb3-ob-lRh">
+                                <rect key="frame" x="171" y="360" width="198" height="189"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ip7-IU-lIa">
+                                <rect key="frame" x="314" y="625" width="55" height="30"/>
+                                <state key="normal" title="Avançar">
+                                    <color key="titleColor" red="0.56078431370000004" green="0.054901960780000002" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vjq-V5-Zad" kind="show" id="8my-li-85i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mQ-uL-tZ6">
+                                <rect key="frame" x="334" y="96" width="35" height="30"/>
+                                <state key="normal" title="pular">
+                                    <color key="titleColor" red="0.56078431370000004" green="0.054901960780000002" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aWN-Ia-RgP" kind="show" id="uEq-lW-C2T"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28137171842570363" green="0.83392599853585403" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                     </view>
                     <navigationItem key="navigationItem" id="TEG-57-ibm"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                    <connections>
-                        <segue destination="vjq-V5-Zad" kind="show" id="wpE-Xn-EfZ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -66,11 +81,32 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Página 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYm-fA-L6R">
-                                <rect key="frame" x="182" y="357" width="66" height="21"/>
+                                <rect key="frame" x="174" y="200" width="66" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.56078431370000004" green="0.054901960780000002" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sni-ki-49M">
+                                <rect key="frame" x="321" y="621" width="55" height="30"/>
+                                <state key="normal" title="Avançar">
+                                    <color key="titleColor" red="0.56078431370000004" green="0.054901960780000002" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yGf-5D-NwB" kind="show" id="BF8-pL-B0m"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bird-red-2-icon" translatesAutoresizingMaskIntoConstraints="NO" id="u0v-8X-UyU">
+                                <rect key="frame" x="80" y="309" width="198" height="189"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ac-WS-Y6Z">
+                                <rect key="frame" x="341" y="98" width="35" height="30"/>
+                                <state key="normal" title="pular">
+                                    <color key="titleColor" red="0.56078431370000004" green="0.054901960780000002" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aWN-Ia-RgP" kind="show" id="nAO-5W-Mjm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.83529411760000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -79,6 +115,64 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Rv-1W-0wc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1494" y="420"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KSu-kb-7yj">
+            <objects>
+                <viewController id="yGf-5D-NwB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K3M-fX-L8J"/>
+                        <viewControllerLayoutGuide type="bottom" id="dPJ-kg-DSG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="66r-N4-bcF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Página 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZU1-zO-7BU">
+                                <rect key="frame" x="174" y="189" width="67" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.56078431370000004" green="0.054901960780000002" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bird-red-2-icon" translatesAutoresizingMaskIntoConstraints="NO" id="MTv-tr-r03">
+                                <rect key="frame" x="-102" y="265" width="198" height="189"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1M-Fa-9pQ">
+                                <rect key="frame" x="327" y="627" width="67" height="30"/>
+                                <state key="normal" title="Vamos lá!">
+                                    <color key="titleColor" red="0.56078431370000004" green="0.054901960780000002" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aWN-Ia-RgP" kind="show" id="JO7-UC-rWR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.28235294119999998" green="0.83529411760000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rh4-AH-y4Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1981" y="420"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FaV-OM-rDb">
+            <objects>
+                <viewController id="aWN-Ia-RgP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ClV-xA-CuJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="X7F-G6-sop"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t81-Vk-OM1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NiM-My-z8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1494" y="1342"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="t02-xv-Y8b">
@@ -102,4 +196,7 @@
     <resources>
         <image name="bird-red-2-icon" width="512" height="512"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="nAO-5W-Mjm"/>
+    </inferredMetricsTieBreakers>
 </document>
